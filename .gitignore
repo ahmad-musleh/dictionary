@@ -1,0 +1,16 @@
+# Virtual environment
+env/
+
+# SQLite database
+db.sqlite3
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# Ignore migrations except __init__.py
+dictionary/migrations/
+!dictionary/migrations/__init__.py
